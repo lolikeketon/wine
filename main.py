@@ -2,6 +2,7 @@ import collections
 from datetime import datetime
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 
+
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from pandas import read_excel
 
